@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.login{
+    border: 1px solid ;
+}
+
+.location{
+    border: 1px solid;
+}
+
+.quote{
+    font-size: 50px;
+}

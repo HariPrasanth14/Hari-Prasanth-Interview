@@ -1,6 +1,23 @@
+import Banner from "./component/banner";
+import Contact from "./component/contact";
+import Feedback from "./component/feedback";
+import Footer from "./component/footer";
+import Navbar from "./component/navbar";
+import Popular from "./component/Popular";
+import Vehicles from "./component/vehicles";
+
 const App = () => {
     return (
-        <h1 className="text-3xl font-bold text-blue-500">Hello, World!</h1>
+        <>
+
+        <Navbar />
+        <Banner />
+        <Vehicles />
+        <Popular />
+        <Feedback />
+        <Contact />
+        <Footer />
+        </>
     );
 };
 export default App;
